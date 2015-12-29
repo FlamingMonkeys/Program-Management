@@ -1,0 +1,1 @@
+This repository contains the project management files for team 3352. This includes GanttProject files that contain the build season schedule.
