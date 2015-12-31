@@ -37,16 +37,15 @@
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
         <task id="25" name="Build Season" color="#000000" meeting="false" start="2016-01-09" duration="33" complete="0" expand="true">
-            <task id="33" name="Design" color="#00cc00" meeting="false" start="2016-01-09" duration="5" complete="0" expand="false">
-                <depend id="206" type="2" difference="0" hardness="Strong"/>
+            <task id="33" name="Design" color="#00cc00" meeting="false" start="2016-01-09" duration="6" complete="0" expand="false">
                 <task id="35" name="Rules" color="#8cb6ce" meeting="false" start="2016-01-09" duration="1" complete="0" expand="true"/>
                 <task id="39" name="Strategy Analysis" color="#8cb6ce" meeting="false" start="2016-01-09" duration="2" complete="0" expand="true"/>
-                <task id="40" name="Brainstorming &amp; Mock-ups" color="#8cb6ce" meeting="false" start="2016-01-11" duration="3" complete="0" expand="true">
+                <task id="40" name="Brainstorming &amp; Mock-ups" color="#8cb6ce" meeting="false" start="2016-01-11" duration="4" complete="0" expand="true">
                     <depend id="71" type="2" difference="0" hardness="Strong"/>
+                    <depend id="206" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="71" name="Final Design" color="#8cb6ce" meeting="false" start="2016-01-15" duration="1" complete="0" expand="true">
+                <task id="71" name="Final Design" color="#8cb6ce" meeting="false" start="2016-01-16" duration="1" complete="0" expand="true">
                     <depend id="165" type="2" difference="0" hardness="Strong"/>
-                    <depend id="166" type="2" difference="0" hardness="Strong"/>
                     <depend id="220" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
@@ -58,35 +57,29 @@
                 <task id="163" name="Planning" color="#8cb6ce" meeting="false" start="2016-01-12" duration="1" complete="0" expand="true" cost-manual-value="150.0" cost-calculated="false">
                     <depend id="164" type="2" difference="0" hardness="Strong"/>
                     <depend id="165" type="2" difference="0" hardness="Strong"/>
-                    <depend id="166" type="2" difference="0" hardness="Strong"/>
                 </task>
                 <task id="164" name="Drivetrain" color="#8cb6ce" meeting="false" start="2016-01-14" duration="3" complete="0" expand="true">
                     <depend id="168" type="2" difference="0" hardness="Strong"/>
                     <depend id="169" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="165" name="Manipulator 1" color="#8cb6ce" meeting="false" start="2016-01-16" duration="5" complete="0" expand="true">
+                <task id="165" name="Manipulators" color="#8cb6ce" meeting="false" start="2016-01-18" duration="5" complete="0" expand="true">
                     <depend id="167" type="2" difference="0" hardness="Strong"/>
                     <depend id="168" type="2" difference="0" hardness="Strong"/>
                     <depend id="169" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="166" name="Manipulator 2" color="#8cb6ce" meeting="false" start="2016-01-16" duration="5" complete="0" expand="true">
-                    <depend id="167" type="2" difference="0" hardness="Strong"/>
+                <task id="167" name="Frame" color="#8cb6ce" meeting="false" start="2016-01-25" duration="3" complete="0" expand="true">
                     <depend id="168" type="2" difference="0" hardness="Strong"/>
                     <depend id="169" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="167" name="Frame" color="#8cb6ce" meeting="false" start="2016-01-23" duration="3" complete="0" expand="true">
-                    <depend id="168" type="2" difference="0" hardness="Strong"/>
+                <task id="168" name="Miscellaneous" color="#8cb6ce" meeting="false" start="2016-01-29" duration="1" complete="0" expand="true">
                     <depend id="169" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="168" name="Miscellaneous" color="#8cb6ce" meeting="false" start="2016-01-28" duration="1" complete="0" expand="true">
-                    <depend id="169" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="169" name="Final Model" color="#8cb6ce" meeting="false" start="2016-01-29" duration="1" complete="0" expand="true">
+                <task id="169" name="Final Model" color="#8cb6ce" meeting="false" start="2016-01-30" duration="1" complete="0" expand="true">
                     <depend id="170" type="2" difference="0" hardness="Strong"/>
                     <depend id="194" type="2" difference="0" hardness="Strong"/>
                     <depend id="199" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="170" name="Drawings" color="#8cb6ce" meeting="false" start="2016-01-30" duration="3" complete="0" expand="true">
+                <task id="170" name="Drawings" color="#8cb6ce" meeting="false" start="2016-02-01" duration="2" complete="0" expand="true">
                     <depend id="195" type="2" difference="0" hardness="Strong"/>
                     <depend id="196" type="2" difference="0" hardness="Strong"/>
                     <depend id="200" type="2" difference="0" hardness="Strong"/>
@@ -96,13 +89,13 @@
             <task id="191" name="Build" color="#cccc00" meeting="false" start="2016-01-23" duration="19" complete="0" expand="false">
                 <depend id="198" type="2" difference="0" hardness="Strong"/>
                 <task id="192" name="Planning" color="#8cb6ce" meeting="false" start="2016-01-23" duration="1" complete="0" expand="true" cost-manual-value="400.0" cost-calculated="false"/>
-                <task id="193" name="Robot 1" meeting="false" start="2016-01-30" duration="10" complete="0" expand="false">
+                <task id="193" name="Robot 1" meeting="false" start="2016-02-01" duration="9" complete="0" expand="false">
                     <depend id="203" type="2" difference="0" hardness="Strong"/>
                     <depend id="234" type="2" difference="0" hardness="Strong"/>
                     <depend id="260" type="2" difference="0" hardness="Strong"/>
                     <depend id="264" type="2" difference="0" hardness="Strong"/>
                     <depend id="268" type="2" difference="0" hardness="Strong"/>
-                    <task id="194" name="Drivetrain Assembly" color="#8cb6ce" meeting="false" start="2016-01-30" duration="3" complete="0" expand="true" cost-manual-value="0.1" cost-calculated="false">
+                    <task id="194" name="Drivetrain Assembly" color="#8cb6ce" meeting="false" start="2016-02-01" duration="3" complete="0" expand="true" cost-manual-value="0.1" cost-calculated="false">
                         <depend id="197" type="2" difference="0" hardness="Strong"/>
                     </task>
                     <task id="195" name="Mechanism 1" color="#8cb6ce" meeting="false" start="2016-02-04" duration="4" complete="0" expand="true">
@@ -115,15 +108,15 @@
                 </task>
                 <task id="203" name="Testing/Optimizing" color="#8cb6ce" meeting="false" start="2016-02-13" duration="4" complete="0" expand="true"/>
             </task>
-            <task id="218" name="Programming" color="#ff9900" meeting="false" start="2016-01-16" duration="23" complete="0" expand="false">
-                <task id="220" name="Planning" color="#8cb6ce" meeting="false" start="2016-01-16" duration="1" complete="0" expand="true">
+            <task id="218" name="Programming" color="#ff9900" meeting="false" start="2016-01-18" duration="22" complete="0" expand="false">
+                <task id="220" name="Planning" color="#8cb6ce" meeting="false" start="2016-01-18" duration="1" complete="0" expand="true">
                     <depend id="223" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="223" name="Teleop" color="#8cb6ce" meeting="false" start="2016-01-18" duration="5" complete="0" expand="true">
+                <task id="223" name="Teleop" color="#8cb6ce" meeting="false" start="2016-01-19" duration="5" complete="0" expand="true">
                     <depend id="228" type="2" difference="0" hardness="Strong"/>
                     <depend id="268" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="228" name="Autonomous" color="#8cb6ce" meeting="false" start="2016-01-25" duration="5" complete="0" expand="true">
+                <task id="228" name="Autonomous" color="#8cb6ce" meeting="false" start="2016-01-26" duration="5" complete="0" expand="true">
                     <depend id="234" type="2" difference="0" hardness="Strong"/>
                 </task>
                 <task id="234" name="Autonomous Testing" color="#8cb6ce" meeting="false" start="2016-02-13" duration="3" complete="0" expand="true"/>
@@ -193,10 +186,10 @@
         <resource id="25" name="Zach Wiseman" function="3" contacts="" phone=""/>
         <resource id="14" name="Rizal Ucok" function="4" contacts="" phone=""/>
         <resource id="15" name="Matt Ripplinger" function="4" contacts="" phone=""/>
+        <resource id="19" name="Matt Vondracek" function="4" contacts="" phone=""/>
         <resource id="16" name="Mark Libby" function="4" contacts="" phone=""/>
         <resource id="17" name="Collin Schohn" function="4" contacts="" phone=""/>
         <resource id="18" name="Kollin Profitt" function="4" contacts="" phone=""/>
-        <resource id="19" name="Matt Vondracek" function="4" contacts="" phone=""/>
         <resource id="20" name="Chet Wilsea" function="4" contacts="" phone=""/>
         <resource id="21" name="Abdul Shamseldin" function="4" contacts="" phone=""/>
         <resource id="22" name="Allison MacFadden" function="4" contacts="" phone=""/>
@@ -237,6 +230,13 @@
         <allocation task-id="168" resource-id="15" function="4" responsible="true" load="10.0"/>
         <allocation task-id="169" resource-id="15" function="4" responsible="true" load="10.0"/>
         <allocation task-id="170" resource-id="15" function="4" responsible="true" load="10.0"/>
+        <allocation task-id="163" resource-id="19" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="164" resource-id="19" function="4" responsible="false" load="10.0"/>
+        <allocation task-id="165" resource-id="19" function="4" responsible="false" load="10.0"/>
+        <allocation task-id="167" resource-id="19" function="4" responsible="false" load="10.0"/>
+        <allocation task-id="168" resource-id="19" function="4" responsible="false" load="10.0"/>
+        <allocation task-id="169" resource-id="19" function="4" responsible="false" load="10.0"/>
+        <allocation task-id="170" resource-id="19" function="4" responsible="false" load="10.0"/>
         <allocation task-id="163" resource-id="16" function="4" responsible="false" load="100.0"/>
         <allocation task-id="164" resource-id="16" function="4" responsible="false" load="10.0"/>
         <allocation task-id="165" resource-id="16" function="4" responsible="false" load="10.0"/>
@@ -258,13 +258,6 @@
         <allocation task-id="168" resource-id="18" function="4" responsible="false" load="10.0"/>
         <allocation task-id="169" resource-id="18" function="4" responsible="false" load="10.0"/>
         <allocation task-id="170" resource-id="18" function="4" responsible="false" load="10.0"/>
-        <allocation task-id="163" resource-id="19" function="4" responsible="false" load="100.0"/>
-        <allocation task-id="164" resource-id="19" function="4" responsible="false" load="10.0"/>
-        <allocation task-id="165" resource-id="19" function="4" responsible="false" load="10.0"/>
-        <allocation task-id="167" resource-id="19" function="4" responsible="false" load="10.0"/>
-        <allocation task-id="168" resource-id="19" function="4" responsible="false" load="10.0"/>
-        <allocation task-id="169" resource-id="19" function="4" responsible="false" load="10.0"/>
-        <allocation task-id="170" resource-id="19" function="4" responsible="false" load="10.0"/>
         <allocation task-id="163" resource-id="20" function="4" responsible="false" load="100.0"/>
         <allocation task-id="164" resource-id="20" function="4" responsible="false" load="10.0"/>
         <allocation task-id="165" resource-id="20" function="4" responsible="false" load="10.0"/>
